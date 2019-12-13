@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"CRIM"  : "0.1","ZN"  : "0.1","INDUS"  : "0.1","CHAS"  : "0.1","NOX"  : "0.1","RM"  : "0.1","AGE"  : "0.1","DIS"  : "0.1","RAD"  : "0.1","TAX"  : "0.1","PTRATIO" : "0.1","LSTAT"  : "0.1","B"     : "0.1","MEDV" : "0.1" }' http://127.0.0.1:8000/houses/
